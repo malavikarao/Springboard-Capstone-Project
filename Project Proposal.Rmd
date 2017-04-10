@@ -1,0 +1,39 @@
+---
+title: "Project Proposal"
+author: "Malavika"
+date: "March 22, 2017"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Insurance Company Benchmark Data Set
+
+### The Problem
+
+I have insurance company customer data, that I want to use to train and be able to predict if a new customer is going to buy the 'Caravan' Insurance.
+
+Also try to classify the customer's characteristics into buyers and non-buyers
+
+### Who is the client and why they care about this problem?
+
+The client is an insurance company and they want to be able to predict which customers are more probable to buy the insurance and understand the profile of these buyers better.
+
+This will help them predict the buyers and also have marketing and promotions targeted based on the profile of the buyers.
+
+The Insurance Company Benchmark (COIL 2000) Data Set is available on UCI Machine Learning Repository
+
+There are 2 data sets; a training set of 5000 customers and test set of 4000 customers. Data consists of 86 variables and includes product usage data and socio-demographic data derived from zip area codes
+
+
+### Analysis Plan
+Plan to use the training data to train a Classification model and find the best fit.
+
+Also use classification to group the customers based on whether they bought the insurance or not.
+
+
+The report will include code used for the classification model and fine tuning it. Also accuracy of the model comparing the targets provided for the evaluation data and slides that can explain how the analysis can help future business plan and prediction.
